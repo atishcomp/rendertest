@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
   })
    
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
     app.listen(port,()=>{
         console.log(`APP IS RUNNING AND AT ${port}`);
     })
